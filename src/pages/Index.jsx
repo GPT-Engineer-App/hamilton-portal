@@ -49,6 +49,21 @@ const Index = () => {
           </Link>
         </HStack>
       </Box>
+      <Box mt={10}>
+        <Heading as="h2" size="lg">
+          Projects
+        </Heading>
+        <VStack mt={4} spacing={4}>
+          <Box>
+            <Heading as="h3" size="md">Federalist Papers</Heading>
+            <Text>A series of 85 articles and essays written by Alexander Hamilton, James Madison, and John Jay promoting the ratification of the United States Constitution.</Text>
+          </Box>
+          <Box>
+            <Heading as="h3" size="md">The Bank of New York</Heading>
+            <Text>Founded by Alexander Hamilton, this was the first company to be listed on the New York Stock Exchange and is one of the oldest banks in the United States.</Text>
+          </Box>
+        </VStack>
+      </Box>
     </Box>
   );
 };
